@@ -4,16 +4,14 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'SwiftProjectDemo' do
-
 #swift
-    pod 'Moya'
-    pod 'Moya/RxSwift'
-    pod 'SnapKit'
-    pod 'HandyJSON'
-    pod 'Alamofire'
-    pod 'RxSwift'
-    pod 'RxCocoa'
-
+pod 'SnapKit'
+pod 'HandyJSON', '~> 4.0.0-beta.1'
+pod 'Alamofire'
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'Moya'
+pod 'Moya/RxSwift'
 end
 
 
