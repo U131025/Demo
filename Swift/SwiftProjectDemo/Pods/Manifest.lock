@@ -1,8 +1,6 @@
 PODS:
   - Alamofire (4.7.0)
-  - HandyJSON (1.8.0)
-  - Moya (11.0.1):
-    - Moya/Core (= 11.0.1)
+  - HandyJSON (4.0.0-beta.1)
   - Moya/Core (11.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
@@ -17,22 +15,21 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - HandyJSON
-  - Moya
-  - Moya/RxSwift
+  - HandyJSON (~> 4.0.0-beta.1)
+  - Moya/RxSwift (~> 11.0)
   - RxCocoa
   - RxSwift
   - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
-  HandyJSON: edaaa3278bf4c4c96d6f7382b80d6b91c88d3bf5
+  HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
   Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: f63573b27034f0fbf8ce83338c9acefed534c00d
+PODFILE CHECKSUM: 96d6b98e8ba192d7328be81d017faa9f6dac4b7c
 
 COCOAPODS: 1.4.0

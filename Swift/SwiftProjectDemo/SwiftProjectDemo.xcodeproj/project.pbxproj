@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E52F42F620560D780072E176 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F42F520560D780072E176 /* Common.swift */; };
+		E52F42F920560DA40072E176 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F42F820560DA40072E176 /* Protocol.swift */; };
+		E52F42FD20560DC30072E176 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F42FC20560DC30072E176 /* CustomNavigationController.swift */; };
+		E52F430220560E6E0072E176 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52F42FE20560E6D0072E176 /* LoginViewController.xib */; };
+		E52F430320560E6E0072E176 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F42FF20560E6D0072E176 /* LoginViewController.swift */; };
+		E52F430420560E6E0072E176 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F430020560E6E0072E176 /* LoginViewModel.swift */; };
+		E52F430520560E6E0072E176 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F430120560E6E0072E176 /* ValidationService.swift */; };
+		E52F4308205613370072E176 /* NetApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F4307205613370072E176 /* NetApiManager.swift */; };
+		E52F430A205626230072E176 /* ToolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F4309205626230072E176 /* ToolExtension.swift */; };
+		E52F430E205647E50072E176 /* ToModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F430D205647E50072E176 /* ToModelExtension.swift */; };
+		E52F431020564AEF0072E176 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F430F20564AEF0072E176 /* UserModel.swift */; };
+		E52F431220566E9A0072E176 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F431120566E9A0072E176 /* ResponseModel.swift */; };
+		E52F43142056700D0072E176 /* LoginTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F43132056700D0072E176 /* LoginTimeModel.swift */; };
 		E5E1535E20522AE600F3720C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1535D20522AE600F3720C /* AppDelegate.swift */; };
 		E5E1536020522AE600F3720C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1535F20522AE600F3720C /* ViewController.swift */; };
 		E5E1536320522AE600F3720C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E1536120522AE600F3720C /* Main.storyboard */; };
@@ -19,6 +32,20 @@
 /* Begin PBXFileReference section */
 		BA3A80F1589212D3D2A85356 /* Pods-SwiftProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectDemo/Pods-SwiftProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D59D506AD7200311C9976C40 /* Pods-SwiftProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectDemo/Pods-SwiftProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E52F42F520560D780072E176 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E52F42F820560DA40072E176 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		E52F42FC20560DC30072E176 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		E52F42FE20560E6D0072E176 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		E52F42FF20560E6D0072E176 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E52F430020560E6E0072E176 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E52F430120560E6E0072E176 /* ValidationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
+		E52F4307205613370072E176 /* NetApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetApiManager.swift; sourceTree = "<group>"; };
+		E52F4309205626230072E176 /* ToolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolExtension.swift; sourceTree = "<group>"; };
+		E52F430C20562A030072E176 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		E52F430D205647E50072E176 /* ToModelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToModelExtension.swift; sourceTree = "<group>"; };
+		E52F430F20564AEF0072E176 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E52F431120566E9A0072E176 /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		E52F43132056700D0072E176 /* LoginTimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTimeModel.swift; sourceTree = "<group>"; };
 		E5E1535A20522AE600F3720C /* SwiftProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E1535D20522AE600F3720C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E1535F20522AE600F3720C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +78,58 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E52F42F720560DA40072E176 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E52F42F820560DA40072E176 /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E52F42FA20560DB60072E176 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				E52F42FB20560DC30072E176 /* NavigationController */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		E52F42FB20560DC30072E176 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E52F42FC20560DC30072E176 /* CustomNavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		E52F430620560FB80072E176 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E52F431120566E9A0072E176 /* ResponseModel.swift */,
+				E52F4307205613370072E176 /* NetApiManager.swift */,
+				E52F430D205647E50072E176 /* ToModelExtension.swift */,
+				E52F4309205626230072E176 /* ToolExtension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E52F430B2056292A0072E176 /* BridgeHeader */ = {
+			isa = PBXGroup;
+			children = (
+				E52F430C20562A030072E176 /* Bridging.h */,
+			);
+			path = BridgeHeader;
+			sourceTree = "<group>";
+		};
+		E52F4315205672C60072E176 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E52F43132056700D0072E176 /* LoginTimeModel.swift */,
+				E52F430F20564AEF0072E176 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E5E1535120522AE600F3720C = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +151,9 @@
 		E5E1535C20522AE600F3720C /* SwiftProjectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E52F430620560FB80072E176 /* Tools */,
+				E52F42FA20560DB60072E176 /* CustomUI */,
+				E52F42F720560DA40072E176 /* Protocol */,
 				E5E153B82052769E00F3720C /* Public */,
 				E5E153B62052766F00F3720C /* Modul */,
 				E5E153B52052765C00F3720C /* Support Files */,
@@ -111,6 +193,11 @@
 		E5E153B72052768A00F3720C /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				E52F4315205672C60072E176 /* Model */,
+				E52F42FF20560E6D0072E176 /* LoginViewController.swift */,
+				E52F42FE20560E6D0072E176 /* LoginViewController.xib */,
+				E52F430020560E6E0072E176 /* LoginViewModel.swift */,
+				E52F430120560E6E0072E176 /* ValidationService.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -118,6 +205,8 @@
 		E5E153B82052769E00F3720C /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				E52F430B2056292A0072E176 /* BridgeHeader */,
+				E52F42F520560D780072E176 /* Common.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -193,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52F430220560E6E0072E176 /* LoginViewController.xib in Resources */,
 				E5E153BD20527E2900F3720C /* Info.plist in Resources */,
 				E5E1536820522AE600F3720C /* LaunchScreen.storyboard in Resources */,
 				E5E1536520522AE600F3720C /* Assets.xcassets in Resources */,
@@ -273,8 +363,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52F430320560E6E0072E176 /* LoginViewController.swift in Sources */,
 				E5E1536020522AE600F3720C /* ViewController.swift in Sources */,
+				E52F4308205613370072E176 /* NetApiManager.swift in Sources */,
+				E52F430A205626230072E176 /* ToolExtension.swift in Sources */,
+				E52F42FD20560DC30072E176 /* CustomNavigationController.swift in Sources */,
+				E52F430E205647E50072E176 /* ToModelExtension.swift in Sources */,
+				E52F42F620560D780072E176 /* Common.swift in Sources */,
 				E5E1535E20522AE600F3720C /* AppDelegate.swift in Sources */,
+				E52F43142056700D0072E176 /* LoginTimeModel.swift in Sources */,
+				E52F42F920560DA40072E176 /* Protocol.swift in Sources */,
+				E52F431220566E9A0072E176 /* ResponseModel.swift in Sources */,
+				E52F430520560E6E0072E176 /* ValidationService.swift in Sources */,
+				E52F431020564AEF0072E176 /* UserModel.swift in Sources */,
+				E52F430420560E6E0072E176 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +521,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SwiftProjectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SwiftProjectDemo/Public/BridgeHeader/Bridging.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -436,6 +539,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SwiftProjectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SwiftProjectDemo/Public/BridgeHeader/Bridging.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

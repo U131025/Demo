@@ -5,13 +5,14 @@ use_frameworks!
 
 target 'SwiftProjectDemo' do
 #swift
+#pod 'Moya', '~> 11.0'
+pod 'Moya/RxSwift', '~> 11.0'
 pod 'SnapKit'
 pod 'HandyJSON', '~> 4.0.0-beta.1'
 pod 'Alamofire'
 pod 'RxSwift'
 pod 'RxCocoa'
-pod 'Moya'
-pod 'Moya/RxSwift'
+
 end
 
 
