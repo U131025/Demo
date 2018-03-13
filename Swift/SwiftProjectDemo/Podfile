@@ -4,14 +4,29 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'SwiftProjectDemo' do
-#swift
+    
+#swift常用库
+
+#网络请求
 #pod 'Moya', '~> 11.0'
 pod 'Moya/RxSwift', '~> 11.0'
-pod 'SnapKit'
-pod 'HandyJSON', '~> 4.0.0-beta.1'
 pod 'Alamofire'
+
+#Json解析库
+pod 'HandyJSON', '~> 4.0.0-beta.1'
+
+#自动布局
+pod 'SnapKit'
+
+#ReactiveCocoa框架Swift版本（响应链编程框架）
 pod 'RxSwift'
 pod 'RxCocoa'
+
+# MJRefresh的Swift替代
+pod 'GTMRefresh'
+
+#Banner轮播控件
+pod 'LLCycleScrollView'
 
 end
 

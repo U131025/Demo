@@ -20,6 +20,7 @@
 		E52F431020564AEF0072E176 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F430F20564AEF0072E176 /* UserModel.swift */; };
 		E52F431220566E9A0072E176 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F431120566E9A0072E176 /* ResponseModel.swift */; };
 		E52F43142056700D0072E176 /* LoginTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F43132056700D0072E176 /* LoginTimeModel.swift */; };
+		E5B7F71B2057CC990042EA84 /* MyCenterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7F71A2057CC990042EA84 /* MyCenterTableViewController.swift */; };
 		E5E1535E20522AE600F3720C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1535D20522AE600F3720C /* AppDelegate.swift */; };
 		E5E1536020522AE600F3720C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1535F20522AE600F3720C /* ViewController.swift */; };
 		E5E1536320522AE600F3720C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E1536120522AE600F3720C /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		E52F430F20564AEF0072E176 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		E52F431120566E9A0072E176 /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 		E52F43132056700D0072E176 /* LoginTimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTimeModel.swift; sourceTree = "<group>"; };
+		E5B7F71A2057CC990042EA84 /* MyCenterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterTableViewController.swift; sourceTree = "<group>"; };
 		E5E1535A20522AE600F3720C /* SwiftProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E1535D20522AE600F3720C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E1535F20522AE600F3720C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,80 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E5B7F70D2057A6340042EA84 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E52F42FF20560E6D0072E176 /* LoginViewController.swift */,
+				E52F42FE20560E6D0072E176 /* LoginViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E5B7F70E2057A64B0042EA84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E52F430020560E6E0072E176 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E5B7F70F2057A6560042EA84 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E52F430120560E6E0072E176 /* ValidationService.swift */,
+			);
+			name = Service;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E5B7F7102057CB900042EA84 /* My Center */ = {
+			isa = PBXGroup;
+			children = (
+				E5B7F7162057CC0A0042EA84 /* Service */,
+				E5B7F7152057CC030042EA84 /* ViewModel */,
+				E5B7F7142057CBF20042EA84 /* Model */,
+				E5B7F7132057CBED0042EA84 /* View */,
+				E5B7F7122057CBE50042EA84 /* ViewController */,
+			);
+			path = "My Center";
+			sourceTree = "<group>";
+		};
+		E5B7F7122057CBE50042EA84 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E5B7F71A2057CC990042EA84 /* MyCenterTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E5B7F7132057CBED0042EA84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5B7F7142057CBF20042EA84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5B7F7152057CC030042EA84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E5B7F7162057CC0A0042EA84 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		E5E1535120522AE600F3720C = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +231,7 @@
 				E52F42FA20560DB60072E176 /* CustomUI */,
 				E52F42F720560DA40072E176 /* Protocol */,
 				E5E153B82052769E00F3720C /* Public */,
-				E5E153B62052766F00F3720C /* Modul */,
+				E5E153B62052766F00F3720C /* Moduls */,
 				E5E153B52052765C00F3720C /* Support Files */,
 				E5E153B32052763E00F3720C /* AppDelegate */,
 				E5E1535F20522AE600F3720C /* ViewController.swift */,
@@ -182,22 +258,22 @@
 			name = "Support Files";
 			sourceTree = "<group>";
 		};
-		E5E153B62052766F00F3720C /* Modul */ = {
+		E5E153B62052766F00F3720C /* Moduls */ = {
 			isa = PBXGroup;
 			children = (
+				E5B7F7102057CB900042EA84 /* My Center */,
 				E5E153B72052768A00F3720C /* Login */,
 			);
-			path = Modul;
+			path = Moduls;
 			sourceTree = "<group>";
 		};
 		E5E153B72052768A00F3720C /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				E5B7F70F2057A6560042EA84 /* Service */,
+				E5B7F70E2057A64B0042EA84 /* ViewModel */,
+				E5B7F70D2057A6340042EA84 /* ViewController */,
 				E52F4315205672C60072E176 /* Model */,
-				E52F42FF20560E6D0072E176 /* LoginViewController.swift */,
-				E52F42FE20560E6D0072E176 /* LoginViewController.xib */,
-				E52F430020560E6E0072E176 /* LoginViewModel.swift */,
-				E52F430120560E6E0072E176 /* ValidationService.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -319,7 +395,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProjectDemo/Pods-SwiftProjectDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMRefresh/GTMRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -329,7 +408,10 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
@@ -374,6 +456,7 @@
 				E52F43142056700D0072E176 /* LoginTimeModel.swift in Sources */,
 				E52F42F920560DA40072E176 /* Protocol.swift in Sources */,
 				E52F431220566E9A0072E176 /* ResponseModel.swift in Sources */,
+				E5B7F71B2057CC990042EA84 /* MyCenterTableViewController.swift in Sources */,
 				E52F430520560E6E0072E176 /* ValidationService.swift in Sources */,
 				E52F431020564AEF0072E176 /* UserModel.swift in Sources */,
 				E52F430420560E6E0072E176 /* LoginViewModel.swift in Sources */,
