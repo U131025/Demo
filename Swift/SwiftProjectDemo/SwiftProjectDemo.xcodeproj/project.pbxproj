@@ -20,7 +20,10 @@
 		E52F431020564AEF0072E176 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F430F20564AEF0072E176 /* UserModel.swift */; };
 		E52F431220566E9A0072E176 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F431120566E9A0072E176 /* ResponseModel.swift */; };
 		E52F43142056700D0072E176 /* LoginTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F43132056700D0072E176 /* LoginTimeModel.swift */; };
+		E597099E205A45AA00377E8E /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597099C205A45AA00377E8E /* ListTableViewCell.swift */; };
+		E597099F205A45AA00377E8E /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E597099D205A45AA00377E8E /* ListTableViewCell.xib */; };
 		E5B7F71B2057CC990042EA84 /* MyCenterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7F71A2057CC990042EA84 /* MyCenterTableViewController.swift */; };
+		E5B91644205914E300BAABA8 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B91643205914E300BAABA8 /* BaseTableViewController.swift */; };
 		E5E1535E20522AE600F3720C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1535D20522AE600F3720C /* AppDelegate.swift */; };
 		E5E1536020522AE600F3720C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1535F20522AE600F3720C /* ViewController.swift */; };
 		E5E1536320522AE600F3720C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E1536120522AE600F3720C /* Main.storyboard */; };
@@ -47,7 +50,10 @@
 		E52F430F20564AEF0072E176 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		E52F431120566E9A0072E176 /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 		E52F43132056700D0072E176 /* LoginTimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTimeModel.swift; sourceTree = "<group>"; };
+		E597099C205A45AA00377E8E /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		E597099D205A45AA00377E8E /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		E5B7F71A2057CC990042EA84 /* MyCenterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterTableViewController.swift; sourceTree = "<group>"; };
+		E5B91643205914E300BAABA8 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		E5E1535A20522AE600F3720C /* SwiftProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E1535D20522AE600F3720C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E1535F20522AE600F3720C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +138,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E597099B205A455D00377E8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E597099C205A45AA00377E8E /* ListTableViewCell.swift */,
+				E597099D205A45AA00377E8E /* ListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E5B7F70D2057A6340042EA84 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +221,15 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		E5B9164220590E1000BAABA8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E597099B205A455D00377E8E /* View */,
+				E5B91643205914E300BAABA8 /* BaseTableViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		E5E1535120522AE600F3720C = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +285,7 @@
 		E5E153B62052766F00F3720C /* Moduls */ = {
 			isa = PBXGroup;
 			children = (
+				E5B9164220590E1000BAABA8 /* List */,
 				E5B7F7102057CB900042EA84 /* My Center */,
 				E5E153B72052768A00F3720C /* Login */,
 			);
@@ -359,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52F430220560E6E0072E176 /* LoginViewController.xib in Resources */,
+				E597099F205A45AA00377E8E /* ListTableViewCell.xib in Resources */,
 				E5E153BD20527E2900F3720C /* Info.plist in Resources */,
 				E5E1536820522AE600F3720C /* LaunchScreen.storyboard in Resources */,
 				E5E1536520522AE600F3720C /* Assets.xcassets in Resources */,
@@ -395,6 +421,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProjectDemo/Pods-SwiftProjectDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMRefresh/GTMRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -402,12 +429,15 @@
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -415,8 +445,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -450,11 +482,13 @@
 				E52F4308205613370072E176 /* NetApiManager.swift in Sources */,
 				E52F430A205626230072E176 /* ToolExtension.swift in Sources */,
 				E52F42FD20560DC30072E176 /* CustomNavigationController.swift in Sources */,
+				E597099E205A45AA00377E8E /* ListTableViewCell.swift in Sources */,
 				E52F430E205647E50072E176 /* ToModelExtension.swift in Sources */,
 				E52F42F620560D780072E176 /* Common.swift in Sources */,
 				E5E1535E20522AE600F3720C /* AppDelegate.swift in Sources */,
 				E52F43142056700D0072E176 /* LoginTimeModel.swift in Sources */,
 				E52F42F920560DA40072E176 /* Protocol.swift in Sources */,
+				E5B91644205914E300BAABA8 /* BaseTableViewController.swift in Sources */,
 				E52F431220566E9A0072E176 /* ResponseModel.swift in Sources */,
 				E5B7F71B2057CC990042EA84 /* MyCenterTableViewController.swift in Sources */,
 				E52F430520560E6E0072E176 /* ValidationService.swift in Sources */,

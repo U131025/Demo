@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.7.0)
+  - Differentiator (3.0.2)
   - GTMRefresh (1.3.1)
   - HandyJSON (4.0.0-beta.1)
   - Kingfisher (4.6.3)
@@ -14,8 +15,13 @@ PODS:
   - Result (3.2.4)
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
   - SnapKit (4.0.0)
+  - SwiftDate (4.5.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -24,11 +30,14 @@ DEPENDENCIES:
   - LLCycleScrollView
   - Moya/RxSwift (~> 11.0)
   - RxCocoa
+  - RxDataSources
   - RxSwift
   - SnapKit
+  - SwiftDate
 
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
   GTMRefresh: 35ba359233dac3920ad562f0c549f88eefd060b7
   HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
   Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
@@ -36,9 +45,11 @@ SPEC CHECKSUMS:
   Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
 
-PODFILE CHECKSUM: 9e8fae38016051df9a29bc0b91ec65128afe1a77
+PODFILE CHECKSUM: 84c98ab41ba7b3de4e18c5175a8038ed5b1cbfe9
 
 COCOAPODS: 1.4.0

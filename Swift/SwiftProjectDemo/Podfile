@@ -21,12 +21,16 @@ pod 'SnapKit'
 #ReactiveCocoa框架Swift版本（响应链编程框架）
 pod 'RxSwift'
 pod 'RxCocoa'
+pod 'RxDataSources'
 
 # MJRefresh的Swift替代
 pod 'GTMRefresh'
 
 #Banner轮播控件
 pod 'LLCycleScrollView'
+
+#Swift时间处理
+pod 'SwiftDate'
 
 end
 
